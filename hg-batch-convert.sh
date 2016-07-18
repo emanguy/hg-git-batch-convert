@@ -11,7 +11,7 @@ do
 
 	# Init empty git repo and convert from hg
 	git init
-	../../hg-to-git/hg-fast-export.sh -r ../../Input/$hgrepo
+	../../fast-export/hg-fast-export.sh -r ../../Input/$hgrepo
 
 	# Convert all .hgignore to .gitignore in all branches
 	for branch in `git branch | cut -c 3-`
