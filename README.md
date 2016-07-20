@@ -4,4 +4,4 @@ hg-batch-convert.sh requires Mercurial, Git, and Python (not Python3). If you ru
 
 Conversion will place the new repositories in the Output/ folder. It will also add a single commit on every branch which has a .hgignore, where it has converted the existing .hgignore to a .gitignore.
 
-fast-export can be added by running ```git submodule update```.
+fast-export can be added by running `git submodule update`.
